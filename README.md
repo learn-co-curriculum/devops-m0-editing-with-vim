@@ -33,9 +33,11 @@ To open `vim`, like with nano, just run the `vim` or `vim <file>` command:
 $ vim file.txt
 ```
 
-Welcome to `vim`! You should see a mostly empty screen, and a blinking cursor. 
+Welcome to `vim`! You should see a mostly empty screen, and a blinking cursor.
 
 `vim` is what is known as a *modal* editor. A **modal editor** is simply an editor that revolves around *modes*, each mode having its own set of commands and capabilities.
+
+What we currently have open is what is known as a buffer. In `vim` (and other CLI text editors), a **buffer** is an in-memory representation of a file that is being edited. When you open a file, the contents of the file are loaded into a buffer. This buffer is what you end up seeing on-screen to make changes to a file, and why until you actually *save* your work into one, it exists separately from the file.
 
 The mode you find yourself in out-of-the-box is fittingly-enough known as **Normal mode**. You can use this mode to navigate through the text, execute commands, and perform some other actions. Since our file is currently empty, we're not doing anything here yet.
 
@@ -73,6 +75,12 @@ Here are some of the most common ones:
 - `:e <filename>`: Opens a new file with that name in `vim`. If the file doesn't exist, it will be created when you save.
 
 After typing the command (you can see what you are typing at the bottom-left of the screen), hit `enter` to execute it. Alternatively, press `Esc` to cancel.
+
+## Multiple Files
+
+You can have multiple buffers/files open in `vim`; to do this, use the `:e <filename>` command. For instance, `:e file2.txt` will open another buffer in the same instance of `vim`. To navigate between the open buffers, you can use `:bn` (buffer next) and `:bp` (buffer previous), as well as `:b <num>` where `<num>` is the buffer number you wish to open. To find out what all the buffers open are, you can use the `:ls` command.
+
+You can also split the window, allowing you to have two buffers open simultaneously on the same screen. You can do this using `:split <filename>` to perform the initial split, and then you can switch between the buffers you have open with `Ctrl+w h` (left), `Ctrl+w l` (right). 
 
 ## Conclusion
 
