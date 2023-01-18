@@ -12,6 +12,19 @@ As we briefly touched on earlier, **vim** is a CLI text editor that is widely us
 
 As a beginner, you might find `vim` intimidating, but after a bit of practice you will see just how efficient and ergonomic editing text using just your keyboard can be!
 
+## Pros and Cons
+
+`nano` and `vim` each have their own pros and cons, and ultimately it is up to you to decide which you want to use. The following is a brief summary of their benefits:
+
+`vim`:
+- Highly customizable and extensible
+- Powerful features for editing and manipulating text (advanced search, macros, multiple undo/redo)
+- Steep learning curve
+
+`nano`:
+- Simple and easy-to-use interface
+- Lacks advanced features and customization options
+
 ## Standard usage
 
 To open `vim`, like with nano, just run the `vim` or `vim <file>` command:
