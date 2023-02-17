@@ -45,7 +45,7 @@ Press `i` to go into `insert` mode. **Insert mode** allows you to type and edit 
 
 Write a few lines of text to get started, anything you want! Once you're done, press `Esc` to go back to `normal` mode.
 
-> Note: You can tell what mode you're in by looking at the bottom left of the screen. If you see `-- INSERT --`, you know you are in `insert` mode. Otherwise, you are most likely in normal mode.
+> **Note:** You can tell what mode you're in by looking at the bottom left of the screen. If you see `-- INSERT --`, you know you are in `insert` mode. Otherwise, you are most likely in normal mode.
 
 There are a lot of commands you can use in `normal` mode; for an extensive list, [check out this cheat sheet.](https://vim.rtorr.com/)
 
