@@ -27,7 +27,7 @@ As a beginner, you might find `vim` intimidating, but after a bit of practice yo
 
 ## Standard usage
 
-To open `vim`, like with nano, just run the `vim` or `vim <file>` command:
+To open `vim`, like with `nano`, just run the `vim` or `vim <file>` command:
 
 ```bash
 $ vim file.txt
